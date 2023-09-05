@@ -12,7 +12,7 @@ def getpreferredencoding(do_setlocale = True):
     return "UTF-8"
 locale.getpreferredencoding = getpreferredencoding
 
-!pip install transformers einops accelerate langchain bitsandbytes xformers sentence_transformers faiss-cpu
+
 
 # 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
 
