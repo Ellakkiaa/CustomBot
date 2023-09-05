@@ -13,9 +13,6 @@ def getpreferredencoding(do_setlocale = True):
 locale.getpreferredencoding = getpreferredencoding
 
 
-
-# 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
-
 !huggingface-cli login
 
 import torch
@@ -45,8 +42,6 @@ pipeline = transformers.pipeline(
 llm = HuggingFacePipeline(pipeline=pipeline,model_kwargs={'temperature':0})
 
 """question answering
-
-
 """
 
 from langchain.chains.question_answering import load_qa_chain
