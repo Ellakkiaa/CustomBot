@@ -1,0 +1,8 @@
+transformers 
+einops 
+accelerate 
+langchain 
+bitsandbytes 
+xformers 
+sentence_transformers 
+faiss-cpu
